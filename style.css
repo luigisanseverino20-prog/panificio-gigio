@@ -13,6 +13,10 @@ nav {
     color: white !important;
 }
 
+main .container > h1,
+main .container > p {
+    text-align: center;
+}
 main {
   padding: 2rem;
 }
@@ -32,6 +36,11 @@ button {
   cursor: pointer;
 }
 
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+    transition: all 0.3s;
+}
 .card {
   padding: 1.5rem;
   margin-bottom: 1rem;
@@ -41,6 +50,13 @@ button {
 .card h3 {
   font-weight: bold;
   margin-bottom: 0.5rem;
+}
+
+#contatti {
+    background-color: #f9f3ee;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
 }
 
 footer {
